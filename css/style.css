@@ -1,0 +1,458 @@
+* {
+    Margin: 0;
+    padding: 0;
+}
+
+style>section article {
+    background-color: #e0d5b3;
+    width: 1300px;
+    height: 300px;
+}
+
+section article p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    line-height: 1;
+    font-size: 17px;
+    text-align: center;
+}
+
+section {
+    padding: 50px 30px 20px 60px;
+    margin-left: 60px;
+    border: 100px;
+}
+
+section img {
+    background-color: #98844a;
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+h2 {
+    color: rgb(22, 13, 1);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+style>html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    z-index: 1;
+    box-shadow: 0px -32px 5px 46px rgba(226, 226, 226, 0.52);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav .logo-container {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+
+header nav .logo-container .logo {
+    display: none;
+}
+
+header nav .logo-container a {
+    text-decoration: none;
+}
+
+header nav .logo-container .logo-container__name {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+header nav #check {
+    display: none;
+}
+
+header nav #check:checked~.nav-list {
+    height: 100vh;
+}
+
+header nav #check:checked~.nav-list li {
+    visibility: visible;
+}
+
+header nav .nav-list {
+    position: none;
+    background: #111111;
+    font-size: medium;
+    display: inline-flex;
+    margin: 0px;
+    padding: 0.80rem;
+    height: 4vh;
+    width: 100%;
+    color: #f1f1f1;
+    font-size: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s;
+    font-size: 14px
+}
+
+
+/*NAV*/
+header nav {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 0
+}
+
+header nav ul li {
+    display: inline-block;
+    width: 25%;
+    position: relative;
+    font-size: 14px
+}
+
+.logo-container {
+    margin: 0;
+    padding: 0;
+    height: 90px;
+    width: 25%;
+}
+
+.logo-image {
+    display: inline-block;
+    margin: 50px;
+    padding: 50px;
+    position: none;
+    box-sizing: border-box;
+    image-rendering: optimizeQuality;
+    width: 1000px;
+    height: 800px;
+}
+
+.logo-map {
+    display: inline-block;
+    margin: 50px;
+    padding: 50px;
+    position: none;
+    box-sizing: border-box;
+    image-rendering: optimizeQuality;
+    width: 1000px;
+    height: 800px;
+}
+
+/*FONDO*/
+body {
+    background-image: url(/images/Fondos/pexels-photo-1128783.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.article {
+    width: 100%;
+    background-image: url(/images/Fondos/rm263-adj-44_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    border: 0%;
+}
+
+/*SOCIAL*/
+.social {
+
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    background: #111111;
+}
+
+.copy {
+    margin-bottom: 1em;
+    font-size: 0.8rem;
+    color: #efdca5;
+}
+
+footer .site-map {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+footer .site-map__nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+footer .site-map__nav li a {
+    color: #efdca5;
+    margin: .5em;
+    font-size: 1.1rem;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+footer .social a {
+    margin: 1em;
+    color: #d7a93d;
+}
+
+footer .social a i {
+    font-size: 2rem;
+}
+
+/*CONTACTO*/
+
+#contacto .form-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 6em 0 1em;
+}
+
+#contacto .form-container .form-container__title {
+    text-align: center;
+}
+
+#contacto .form-container .form-container__title h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+#contacto .form-container .form-container__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 1em auto;
+}
+
+#contacto .form-container .form-container__form input, #contacto .form-container .form-container__form select, #contacto .form-container .form-container__form textarea {
+    width: 100%;
+    margin-bottom: 2em;
+    font-family: inherit;
+}
+
+#contacto .form-container .form-container__form input[type="text"],
+#contacto .form-container .form-container__form input[type="mail"],
+#contacto .form-container .form-container__form textarea {
+    overflow: hidden;
+    padding: 1em 1em .5em 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #efdca5;
+    text-align: left;
+    font-size: 0.72727rem;
+}
+
+#contacto .form-container .form-container__form select {
+    padding: .5em;
+    background: none;
+    border: 1px solid #efdca5;
+}
+
+#contacto .form-container .form-container__form select option {
+    text-align: center;
+}
+
+#contacto .form-container .form-container__form textarea {
+    resize: none;
+    width: 100%;
+    height: 3em;
+}
+
+#contacto .form-container .form-container__form input[type="submit"] {
+    width: 50%;
+    padding: .7em 1em;
+    font-size: 0.96rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: #efdca5;
+    border: none;
+    cursor: pointer;
+}
+
+#contacto .form-container embed {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.info {
+    color: #efdca5
+}
+
+.form-container {
+    background-image: url(/images/Fondos/rm263-adj-44_1.jpg);
+}
+
+/*carta*/
+#carta {
+    width: 100%;
+    padding: 1em;
+    background: url("../multimedia/gral/patterncarta.png");
+}
+
+#carta .carta-info {
+    background-image: url(/images/Fondos/rm263-adj-44_1.jpg);
+    width: 100%;
+    padding-top: 4em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#carta .carta-info h1 {
+    background-image: url(/images/Fondos/rm263-adj-44_1.jpg);
+    text-align: center;
+    color: #000000;
+    width: 80%;
+    line-height: 5;
+    font-size: 40px;
+}
+
+#carta h2 {
+    background-image: url(/images/Fondos/rm263-adj-44_1.jpg);
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+}
+
+#carta .carta-info p {
+    font-size: 18px;
+    font-weight: 100;
+    font-weight: bold;
+    width: 80%;
+    line-height: 1.5;
+}
+
+#carta .foods {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#carta .foods__img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+    background: #fff;
+    box-shadow: 0px 8px 24px 5px rgba(0, 0, 0, 0.45);
+}
+
+#carta .foods__img img {
+    width: 50%;
+}
+
+#carta .foods__img .foods__info {
+    width: 50%;
+}
+
+#carta .foods__img .foods__info p {
+    margin-bottom: .5em;
+    padding: 0 .1em;
+    font-size: 0.96rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.1em;
+}
+
+#carta .foods__img .foods__info .price {
+    margin: none;
+    padding: none;
+    font-weight: 700;
+    color: #efdca5;
+}
+
+#carta .specials-container .special {
+    margin-top: -1.5em;
+    margin-bottom: 3em;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.88rem;
+}
+
+/*PACK*/
+#pack .pack-serv{
+    background-image: url(/images/Fondos/rm263-adj-44_1.jpg);
+}
+
+#pack .pack-serv h1{
+    font-size: 40px;
+    line-height: 4;
+}
+
+#pack .pack-serv h2{
+    font-size: 30px;
+    line-height: 3;
+}
+
+#pack .pack-serv p{
+    font-size: 30px;
+    line-height: 3;
+    text-align: center;
+    align-items: center;
+}
